@@ -49,7 +49,10 @@ h1{
     text-align: center;
     font-size: 25px;
 }
-
+.homepage article {
+    display: none;
+    text-align: center;
+}
 /* About.html class selector */
 .about img { 
     width: 450px; height: 450px;
@@ -86,6 +89,12 @@ h1{
         resize: none;
   }
 
+.get_in_touch h3 {
+    color: rgb(1, 5, 4);
+    border: solid rgb(0, 0, 0);
+    width: 20%;
+    background-color: rgb(26, 212, 225);  
+}
   /*get in touch class selector style */
 .get_in_touch li { 
     display: inline-block;
@@ -94,6 +103,7 @@ h1{
     margin: 15px; 
 }
 .get_in_touch a { color: rgb(4, 4, 238);
+
 
 }
 
