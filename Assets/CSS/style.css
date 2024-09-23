@@ -48,6 +48,11 @@ h1{
 }.homepage section {
     text-align: center;
     font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+
+
 }
 .homepage article {
     display: none;
@@ -68,7 +73,7 @@ h1{
 .projects h2 { 
     text-align: center; 
     background-color: rgb(224, 150, 20);
-    border: solid;
+    border: solid; 
 }
 /* Contact form style */
 .form {input[type=text] 
