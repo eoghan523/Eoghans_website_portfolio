@@ -116,5 +116,7 @@ h1{
 footer { 
 font-size: 10PX;
 font-style: italic;
+margin-bottom: 1px;
+background-color: aqua;
 }
 
