@@ -55,10 +55,12 @@ h1{
 /* Homepage class selectors */
 .homepage img { 
     width: 300px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-bottom: 30px;
+    margin-left: 40%;
+    margin-right: 50%;
     border-radius: 20px;
-    box-shadow:  5px 6px rgb(216, 207, 207);
+    box-shadow:  5px 5px rgb(231, 230, 230);
+    
 
     
 
@@ -70,7 +72,7 @@ h1{
     font-size: 40px;
 }.homepage section {
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: lighter;
@@ -82,10 +84,30 @@ h1{
     text-align: center;
 }
 /* About.html class selector */
-.about img { 
-    width: 450px; height: 450px;
+.box {
+    width: 100%;
+    margin: 0 10px;
+    box-shadow:  0 0 20px 2px rgba 0, 0, 0, .1;
+    transition: 1s;
+}
+.box img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
 }
 
+.container {
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box:hover {
+    z-index: 2;
+    transform: scale(1.05);
+}
 /*Projects.html class selectors */
 .projects img { 
     width: 300px; height: auto; margin-top: 5%; margin-left: 1.5%;
@@ -94,16 +116,18 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    
 }
+
 .projects {
-    background-color: rgb(162, 255, 202);
+    background-color: rgba(204, 246, 255, 0.775);
 }
 .projects h2 { 
     text-align: center; 
-    background-color: rgb(224, 150, 20);
-    border: solid; 
+    background-color: rgb(255, 187, 71);
+    border: solid;
+    box-shadow: 5px 8px 5px;
+    border-radius: 7px;
+    
 }
 /* Contact form style */
 .form {input type=text
@@ -125,10 +149,13 @@ h1{
   }
 
 .get_in_touch h3 {
-    color: rgb(1, 5, 4);
+    color: var(--clr-secondary);
     border: solid rgb(0, 0, 0);
     width: 20%;
-    background-color: rgb(26, 212, 225);  
+    background-color: var(--clr-heading-bg);
+    border-radius: 7%;
+    box-shadow: 5px 5px;  
+    margin-left: 10%;
 }
   /*get in touch class selector style */
 .get_in_touch li { 
@@ -147,6 +174,7 @@ footer {
 font-size: 10PX;
 font-style: italic;
 margin-bottom: 1px;
-background-color: aqua;
+background-color: var(--clr-heading-bg);
+color: var(--clr-secondary);
 }
 
